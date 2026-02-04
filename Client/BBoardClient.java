@@ -1,1 +1,5 @@
-// Client entry point. Launches the GUI.
+public class BBoardClient {
+    public static void main(String[] args) {
+        javax.swing.SwingUtilities.invokeLater(ClientGUI::new);
+    }
+}
